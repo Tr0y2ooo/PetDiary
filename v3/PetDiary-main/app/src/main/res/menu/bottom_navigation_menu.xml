@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_my_pet"
+        android:icon="@drawable/dogicon"
+        android:title="我的寵物" />
+    <item
+        android:id="@+id/nav_community"
+        android:icon="@drawable/social"
+        android:title="社群" />
+    <item
+        android:id="@+id/nav_user_profile"
+        android:icon="@drawable/profile"
+        android:title="主人資料" />
+</menu>
