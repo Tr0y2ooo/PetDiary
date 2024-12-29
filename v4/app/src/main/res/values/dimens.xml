@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 設置資訊欄的寬度、高度和邊距 -->
+    <dimen name="card_width">337dp</dimen>
+    <dimen name="card_height">500dp</dimen>
+    <dimen name="card_margin">35dp</dimen>
+    <dimen name="train_item_height">48dp</dimen>
+</resources>

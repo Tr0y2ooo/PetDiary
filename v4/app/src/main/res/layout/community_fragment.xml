@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#F5F5F5">
+
+    <!-- 發文區 -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="8dp">
+
+        <EditText
+            android:id="@+id/et_post_content"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="寫下你的貼文"
+            android:padding="12dp"
+            android:minHeight="48dp"
+            android:maxHeight="120dp"
+            android:gravity="top|start"
+            android:scrollbars="vertical" />
+
+        <Button
+            android:id="@+id/btn_select_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="圖片"
+            android:layout_marginStart="8dp"
+            android:backgroundTint="#FF6200EE"
+            android:textColor="#FFFFFF"
+            android:minHeight="48dp"
+            android:minWidth="80dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_post"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="發佈"
+        android:backgroundTint="#FF6200EE"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="16dp" />
+
+    <!-- 分隔線 -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#DADADA"
+        android:layout_marginBottom="8dp" />
+
+    <!-- 貼文列表 -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_posts"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#FFFFFF"
+        android:elevation="2dp"
+        android:padding="8dp"
+        android:clipToPadding="false" />
+</LinearLayout>
