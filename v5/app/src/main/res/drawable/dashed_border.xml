@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#00000000" /> <!-- 背景透明 -->
+    <stroke
+        android:color="#000000"
+        android:dashWidth="5dp"
+        android:dashGap="5dp"
+        android:width="2dp" />
+    <size
+        android:height="1dp" /> <!-- 設置虛線框的高度 -->
+</shape>
